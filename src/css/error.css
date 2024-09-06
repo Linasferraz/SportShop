@@ -9,8 +9,12 @@
 
 h1{
     text-align: center;
+    color: rgb(211, 211, 211);
+    font-size: 50px;
 }
 p{
     text-align: center;
+    color: darkgrey;
+    font-size: 20px;
     
 }

@@ -1,0 +1,90 @@
+/* Estilos Globais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1D1D1D;
+}
+  
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+  
+/* Navegação */
+.nav {
+  background-color:#000000;
+  color: white;
+  padding: 15px 20px; /* Aumenta o padding para expandir a área colorida */
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%; /* Garante que o nav ocupe toda a largura disponível */
+  box-sizing: border-box; /* Inclui o padding e a borda na largura total do elemento */
+  }
+  
+.nav-logo {
+  position: absolute;
+  left: 20px; /* Ajuste conforme necessário */
+}
+  
+.logo-img {
+  width: 130px; /* Ajuste a largura do logotipo */
+  height: auto; /* Mantém a proporção da imagem */
+}  
+  
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+  
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px; /* Aumenta o espaçamento entre os itens */
+  font-size: 14px; /* Ajusta o tamanho da fonte conforme necessário */
+  font-weight: bold;
+}
+  
+.nav a:hover {
+  color: #007bff;
+}
+  
+  /* Home */
+.home {
+  padding: 0; /* Remove padding interno do contêiner */
+  margin: 0; /* Remove margens externas do contêiner */
+  width: 100%; /* Garante a largura total do contêiner */
+  box-sizing: border-box; /* Inclui padding e bordas na largura total */
+  text-align: left; /* Assegura que todos os textos dentro do contêiner sejam alinhados à esquerda */
+}
+  
+  /* Estilos para o título h2 */
+.encontre-seu-esporte,
+.nossas-marcas {
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-top: 20px; /* Espaço acima do título */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold; /* Ajuste o peso da fonte conforme necessário */
+  color: aliceblue; /* Cor do texto */
+  display: inline-block; /* Impede o título de ocupar toda a largura disponível */
+  margin-left: 22px;
+}
+
+/* Adicional para espaçamento */
+.home-content {
+  margin-top: 30px; /* Espaço acima do conteúdo adicional */
+}
+  
+  
+/* Footer */
+.footer {
+  background-color:#000000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }

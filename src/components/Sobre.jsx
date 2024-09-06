@@ -1,5 +1,6 @@
 import React from 'react';
-import '../style.css'; // Importa o CSS global
+import '../css/sobre.css'; // Importa o CSS global
+import '../css/global.css';
 
 const Sobre = () => {
   return (

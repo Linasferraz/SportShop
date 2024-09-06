@@ -9,6 +9,7 @@ const Home = () => {
       <div className="banner">
         <img src="/images/banner.png" alt="Banner" className="banner-img" />
       </div>
+      
       <div className="featured-sports">
       <h2 className="encontre-seu-esporte">Encontre seu esporte</h2>
         <div className="sports-images">
@@ -25,10 +26,10 @@ const Home = () => {
         </div>
         <h2 className="nossas-marcas">Nossas marcas</h2>
         <div className="brand-images">
-          <a href=""><img src="/images/kalenji.png" alt="Kalengi" className="vertical-img" /></a>
-          <a href=""><img src="/images/rockrider.png" alt="Rockrider" className="vertical-img" /></a>
-          <a href=""><img src="/images/domyos.png" alt="Domyos" className="vertical-img" /></a>
-          <a href=""><img src="/images/quechua.png" alt="Quechua" className="vertical-img" /></a>
+          <img src="/images/kalenji.png" alt="Kalengi" className="vertical-img" />
+          <img src="/images/rockrider.png" alt="Rockrider" className="vertical-img" />
+          <img src="/images/domyos.png" alt="Domyos" className="vertical-img" />
+          <img src="/images/quechua.png" alt="Quechua" className="vertical-img" />
         </div>
       </div>
     </div>

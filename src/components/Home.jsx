@@ -1,6 +1,7 @@
 // src/components/Home.jsx
-import '../css/home.css'; // Certifique-se de que o CSS está correto
+import '../css/home.css'; 
 import '../css/global.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -8,6 +9,8 @@ const Home = () => {
     <div className="home">
       <div className="banner">
         <img src="/images/banner.png" alt="Banner" className="banner-img" />
+        <h1>Seu Desempenho, Nossa Missão.</h1>
+        <h1 id='texto-sec'>Treine, Supere, Vença!</h1>
       </div>
       
       <div className="featured-sports">
@@ -18,11 +21,21 @@ const Home = () => {
           <a href=""><img src="/images/musculacao.png" alt="Musculação" className="rounded-img" /></a>
         </div>
         <div className="small-images">
-          <a href="/produtos#natacao"><img src="/images/natacao.png" alt="Natação" className="small-rounded-img" /></a>
-          <a href="/produtos#ciclismo"><img src="/images/ciclismo.png" alt="Ciclismo" className="small-rounded-img" /></a>
-          <a href="/produtos#futebol"><img src="/images/futebol.png" alt="Futebol" className="small-rounded-img" /></a>
-          <a href="/produtos#surf"><img src="/images/surf.png" alt="Surf" className="small-rounded-img" /></a>
-          <a href="/produtos#beachtennis"><img src="/images/beach.png" alt="Beach tennis" className="small-rounded-img" /></a>
+          <Link to="/produtos#natacao">
+            <img src="/images/natacao.png" alt="Natação" className="small-rounded-img" />
+          </Link>
+          <Link to="/produtos#ciclismo">
+            <img src="/images/ciclismo.png" alt="Ciclismo" className="small-rounded-img" />
+          </Link>
+          <Link to="/produtos#futebol">
+            <img src="/images/futebol.png" alt="Futebol" className="small-rounded-img" />
+          </Link>
+          <Link to="/produtos#surf">
+            <img src="/images/surf.png" alt="Surf" className="small-rounded-img" />
+          </Link>
+          <Link to="/produtos#beachtennis">
+            <img src="/images/beach.png" alt="Beach tennis" className="small-rounded-img" />
+          </Link>
         </div>
         <h2 className="nossas-marcas">Nossas marcas</h2>
         <div className="brand-images">

@@ -1,37 +1,39 @@
 /* Home */
 .home {
-    padding: 0; /* Remove padding interno do contêiner */
-    margin: 0; /* Remove margens externas do contêiner */
-    width: 100%; /* Garante a largura total do contêiner */
-    box-sizing: border-box; /* Inclui padding e bordas na largura total */
-    text-align: left; /* Assegura que todos os textos dentro do contêiner sejam alinhados à esquerda */
+    padding: 0; 
+    margin: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+    text-align: left; 
+    position: relative;
 }
   
 /* Estilos para o título h2 */
 .encontre-seu-esporte,
 .nossas-marcas {
-  text-align: left; /* Alinha o texto à esquerda */
-  margin-top: 20px; /* Espaço acima do título */
-  margin-bottom: 20px; /* Espaço abaixo do título */
-  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-  font-weight: bold; /* Ajuste o peso da fonte conforme necessário */
-  color: aliceblue; /* Cor do texto */
-  display: inline-block; /* Impede o título de ocupar toda a largura disponível */
+  text-align: left; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: aliceblue; 
+  display: inline-block; 
   margin-left: 22px;
 }
 
 /* Adicional para espaçamento */
 .home-content {
-  margin-top: 30px; /* Espaço acima do conteúdo adicional */
+  margin-top: 30px; 
 }
 
 /* Banner */
 .banner {
-    width: 100vw; /* Define a largura do banner como 100% da largura da viewport */
-    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
-    display: block; /* Garante que o banner se comporte como um bloco, ocupando toda a largura */
-    margin: 0; /* Remove margens externas */
-    padding: 0; /* Remove padding interno */
+    position: relative;
+    width: 100vw; 
+    height: auto; 
+    display: block; 
+    margin: 0; 
+    padding: 0; 
 }
   
 .banner-img {
@@ -39,8 +41,28 @@
     height: auto;
     display: block;
 }
-  
-  /* Featured Sports */
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#texto-sec {
+    color: #D6FD52;
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
 .featured-sports {
     padding: 20px;
 }
@@ -53,26 +75,26 @@
 .sports-images {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre imagens */
+    gap: 20px; 
     margin-bottom: 20px;
 }
   
 .rounded-img {
     border-radius: 10px;
-    width: 440px; /* Ajuste o tamanho conforme necessário */
+    width: 440px; 
     height: auto;
 }
   
 .small-images {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaçamento entre imagens */
+    gap: 10px; 
     margin-bottom: 40px;
 }
   
 .small-rounded-img {
     border-radius: 10px;
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 200px; 
     height: auto;
     margin: 20px; 
 }
@@ -80,13 +102,13 @@
 .brand-images {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre imagens */
+    gap: 20px; 
     margin-bottom: 30px;
 }
   
 .vertical-img {
     border-radius: 10px;
-    width: 220px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Ajuste o tamanho conforme necessário */
+    width: 220px; 
+    height: auto; 
     margin: 20px; 
 }

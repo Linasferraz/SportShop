@@ -2,35 +2,34 @@
 .sobre {
     display: flex;
     flex-direction: row;
-    padding: 0; /* Remove o padding do contêiner para que a imagem fique encostada nas bordas */
-    margin: 0; /* Remove a margem externa do contêiner */
-    height: 100vh; /* Garante que a página ocupe toda a altura da viewport */
+    padding: 0; 
+    /* margin: 0;  */
+    height: 100vh; 
     box-sizing: border-box;
     margin-bottom: 70px;
   }
   
   .sobre-imagem {
-    width: 40%; /* Ajuste a largura conforme necessário */
-    height: 100%; /* Ajuste para garantir que a imagem ocupe toda a altura do contêiner */
-    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
-    margin: 0; /* Remove margens */
+    width: 40%; 
+    height: 111vh; 
+    margin: 0; 
   }
   
   .sobre-texto {
-    width: 40%; /* Ajuste a largura conforme necessário */
-    padding: 20px; /* Espaçamento interno ao redor do texto */
+    width: 40%; 
+    padding: 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; /* Organiza o título e o texto em coluna */
-    justify-content: center; /* Alinha o conteúdo verticalmente no centro */
-    margin-left: 15%; /* Move o contêiner de texto para a direita */
-    text-align: center; /* Alinha o texto à esquerda dentro do contêiner */
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 15%; 
+    text-align: center; 
     margin-right: 15%;
   }
   
   .sobre-texto h1 {
     font-size: 40px;
-    margin-bottom: 20px; /* Espaço entre o título e o texto */
+    margin-bottom: 20px;
     color: aliceblue;
   }
   

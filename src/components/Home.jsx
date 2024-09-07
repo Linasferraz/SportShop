@@ -8,7 +8,7 @@ const Home = () => {
     <>
     <div className="home">
       <div className="banner">
-        <img src="/images/banner.png" alt="Banner" className="banner-img" />
+        <img src="/images/banner-img-sport.jpg" alt="Banner" className="banner-img" />
         <h1>Seu Desempenho, Nossa Missão.</h1>
         <h1 id='texto-sec'>Treine, Supere, Vença!</h1>
       </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/sobre.css'; // Importa o CSS global
 import '../css/global.css';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/contato.css';
 import '../css/global.css';
 

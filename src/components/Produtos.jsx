@@ -1,5 +1,4 @@
-import React from 'react';
-import  '../css/produto.css';
+ import  '../css/produto.css';
 import '../css/global.css';
 
 const Produtos = () => {

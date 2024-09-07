@@ -1,5 +1,4 @@
 // src/components/Nav.jsx
-import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/global.css'; // Importa o CSS do diretório 'src'
 

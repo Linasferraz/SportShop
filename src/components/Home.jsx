@@ -1,5 +1,4 @@
 // src/components/Home.jsx
-import React from 'react';
 import '../css/home.css'; // Certifique-se de que o CSS está correto
 import '../css/global.css';
 

@@ -3,10 +3,15 @@ import '../css/global.css';
 
 function Contato() {
   return (
-    <div>
-      <h1>Contato</h1>
-      <p>Entre em contato conosco pelo email contato@sportsstore.com.</p>
-    </div>
+    <>
+    <section>
+      <div className='contato'>
+        <h1>Contato</h1>
+        <p>Entre em contato conosco pelo email contato@sportsstore.com.</p>
+     </div>
+    </section>
+    </>
+
   );
 }
 

@@ -8,7 +8,7 @@ const Produtos = () => {
   <h1>Nossos Produtos</h1>
 </div>
 
-<section className="secao-produtos">
+<section id="natacao" className="secao-produtos">
   <h2>Natação</h2>
   <div className="container-produtos">
     <div className="produto">
@@ -25,7 +25,7 @@ const Produtos = () => {
   </div>
 </section>
 
-<section className="secao-produtos">
+<section id="ciclismo" className="secao-produtos">
   <h2>Ciclismo</h2>
   <div className="container-produtos">
     <div className="produto">
@@ -41,7 +41,7 @@ const Produtos = () => {
   </div>
 </section>
 
-<section className="secao-produtos">
+<section id="futebol" className="secao-produtos">
   <h2>Futebol</h2>
   <div className="container-produtos">
     <div className="produto">
@@ -57,7 +57,7 @@ const Produtos = () => {
   </div>
 </section>
 
-<section className="secao-produtos">
+<section id="surf" className="secao-produtos">
   <h2>Surf</h2>
   <div className="container-produtos">
     <div className="produto">
@@ -73,7 +73,7 @@ const Produtos = () => {
   </div>
 </section>
 
-<section className="secao-produtos">
+<section id="beachtennis" className="secao-produtos">
   <h2>Beach Tennis</h2>
   <div className="container-produtos">
     <div className="produto">

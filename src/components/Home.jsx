@@ -4,6 +4,7 @@ import '../css/global.css';
 
 const Home = () => {
   return (
+    <>
     <div className="home">
       <div className="banner">
         <img src="/images/banner.png" alt="Banner" className="banner-img" />
@@ -17,11 +18,11 @@ const Home = () => {
           <a href=""><img src="/images/musculacao.png" alt="Musculação" className="rounded-img" /></a>
         </div>
         <div className="small-images">
-          <a href=""><img src="/images/natacao.png" alt="Natação" className="small-rounded-img" /></a>
-          <a href=""><img src="/images/ciclismo.png" alt="Ciclismo" className="small-rounded-img" /></a>
-          <a href=""><img src="/images/futebol.png" alt="Futebol" className="small-rounded-img" /></a>
-          <a href=""><img src="/images/surf.png" alt="Surf" className="small-rounded-img" /></a>
-          <a href=""><img src="/images/beach.png" alt="Beach tennis" className="small-rounded-img" /></a>
+          <a href="/produtos#natacao"><img src="/images/natacao.png" alt="Natação" className="small-rounded-img" /></a>
+          <a href="/produtos#ciclismo"><img src="/images/ciclismo.png" alt="Ciclismo" className="small-rounded-img" /></a>
+          <a href="/produtos#futebol"><img src="/images/futebol.png" alt="Futebol" className="small-rounded-img" /></a>
+          <a href="/produtos#surf"><img src="/images/surf.png" alt="Surf" className="small-rounded-img" /></a>
+          <a href="/produtos#beachtennis"><img src="/images/beach.png" alt="Beach tennis" className="small-rounded-img" /></a>
         </div>
         <h2 className="nossas-marcas">Nossas marcas</h2>
         <div className="brand-images">
@@ -32,6 +33,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
